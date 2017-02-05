@@ -30,22 +30,21 @@
             android:layout_weight="0.13" />
 
         <EditText
-            android:textColor="#fff"
             android:background="@drawable/edittextstyle"
             android:layout_width="300dp"
             android:layout_height="42dp"
             android:layout_gravity="center"
             android:hint="Username"
-            android:id="@+id/etUsername" />
+            android:id="@+id/TVlogin"
+            android:inputType="text" />
         <EditText
-            android:textColor="#fff"
             android:background="@drawable/edittextstyle"
             android:layout_width="300dp"
             android:layout_height="42dp"
             android:layout_gravity="center"
             android:inputType="textPassword"
             android:hint="Password"
-            android:id="@+id/etPassword" />
+            android:id="@+id/TVpass" />
 
         <Button
             android:textColor="#fff"
@@ -54,13 +53,15 @@
             android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:text="Login"
-            android:layout_height="60dp" />
+            android:layout_height="60dp"
+            android:id="@+id/BLogin" />
 
         <TextView
             android:text="Register Here"
+            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvRegisterHere"
+            android:id="@+id/tvRegister"
             android:textAppearance="@android:style/TextAppearance.Material.Medium"
             android:textAlignment="center" />
 
