@@ -23,7 +23,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".Homepage"></activity>
+        <activity android:name=".Homepage" />
+        <activity
+            android:name=".ClubList"
+            android:label="@string/title_activity_club_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClubDetails"
+            android:label="@string/title_activity_club_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ClubRoster" />
+        <activity android:name=".ClubEvents" />
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>
