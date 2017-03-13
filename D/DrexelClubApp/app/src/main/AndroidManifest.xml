@@ -34,7 +34,15 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ClubRoster" />
         <activity android:name=".ClubEvents" />
-        <activity android:name=".About"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".ContactPage" />
+        <activity android:name=".MyClubs" />
+        <activity android:name=".eventdetails" />
+        <activity android:name=".eventdetails2" />
+        <activity android:name=".About2" />
+        <activity android:name=".ClubEvents2" />
+        <activity android:name=".ClubRoster2" />
+        <activity android:name=".ClubEvents3" />
     </application>
 
 </manifest>

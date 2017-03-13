@@ -1,10 +1,12 @@
 package com.example.drexelclubapp;
 
+import android.support.v7.app.AppCompatActivity;
+
 /**
  * Created by Dan on 1/26/2017.
  */
 
-public class Contact {
+public class Contact{
     int id;
     String name, email, uname, pass;
 
